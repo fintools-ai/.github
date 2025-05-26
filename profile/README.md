@@ -6,6 +6,19 @@
 [![AI Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://aws.amazon.com/bedrock/)
 [![Financial Tools](https://img.shields.io/badge/Financial-Tools-blue.svg)](https://github.com/fintools-ai)
 
+## 🚧 Projects
+
+### 🔍 [TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)
+
+> **Chat-based assistant to explore and interpret Open Interest (OI) data**
+
+**TradeInsightsAssistant** helps traders analyze daily Open Interest (OI) trends using a natural language interface. By tracking where large options positions build up and change over time, it provides intuitive insights into potential support/resistance zones, price magnet levels, and trader sentiment.
+
+### 🔍 [FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)
+> **Standalone server designed to deliver market data insights to AI trading agents.**
+> 
+**FinancialDataMCP** helps deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions
+
 ## 🎯 **My Vision**
 
 **Leveling the playing field in financial markets through artificial intelligence.**
