@@ -26,21 +26,6 @@ Every recommendation comes with clear reasoning. Ask "Why did you recommend this
 
 ---
 
-## 🚀 **The Future I'm Creating**
-
-### **For Individual Traders**
-- **Level playing field**: Access to institutional-grade analysis tools
-- **Continuous learning**: AI that explains its reasoning, making you a better trader
-- **Risk management**: Professional discipline built into every recommendation
-- **Time efficiency**: Focus on execution while AI handles the analysis
-
-### **For the Trading Community**
-- **Open development**: Building tools collaboratively with the trading community
-- **Shared knowledge**: Best practices and frameworks available to all
-- **Innovation acceleration**: Faster development of new trading technologies
-- **Educational impact**: Raising the overall sophistication of retail trading
-
----
 
 ## 🚧 Tools
 
@@ -59,6 +44,22 @@ Every recommendation comes with clear reasoning. Ask "Why did you recommend this
 
 ### 🔍  [Open Interest MCP Server](https://github.com/fintools-ai/mcp-openinterest-server) 
 > **Standalone mcp server designed to fetch open interest data.**
+
+---
+
+## 🚀 **The Future I'm Creating**
+
+### **For Individual Traders**
+- **Level playing field**: Access to institutional-grade analysis tools
+- **Continuous learning**: AI that explains its reasoning, making you a better trader
+- **Risk management**: Professional discipline built into every recommendation
+- **Time efficiency**: Focus on execution while AI handles the analysis
+
+### **For the Trading Community**
+- **Open development**: Building tools collaboratively with the trading community
+- **Shared knowledge**: Best practices and frameworks available to all
+- **Innovation acceleration**: Faster development of new trading technologies
+- **Educational impact**: Raising the overall sophistication of retail trading
 
 ---
 
