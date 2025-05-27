@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://aws.amazon.com/bedrock/)
 [![Financial Tools](https://img.shields.io/badge/Financial-Tools-blue.svg)](https://github.com/fintools-ai)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayantanbhow/)
 
 ## 🚧 Projects
 
