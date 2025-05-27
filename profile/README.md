@@ -7,7 +7,7 @@
 [![Financial Tools](https://img.shields.io/badge/Financial-Tools-blue.svg)](https://github.com/fintools-ai)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayantanbhow/)
 
-## 🚧 Projects
+## 🚧 Tools
 
 ### 🔍 [TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)
 
