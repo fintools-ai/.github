@@ -7,32 +7,8 @@
 [![Financial Tools](https://img.shields.io/badge/Financial-Tools-blue.svg)](https://github.com/fintools-ai)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayantanbhow/)
 
-## 🚧 Tools
-
-### 🔍 [TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)
-
-> **Chat-based assistant to explore and interpret Open Interest (OI) data**
-
-**TradeInsightsAssistant** helps traders analyze daily Open Interest (OI) trends using a natural language interface. By tracking where large options positions build up and change over time, it provides intuitive insights into potential support/resistance zones, price magnet levels, and trader sentiment.
-
-### 🔍 [FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)
-> **Standalone server designed to deliver market data insights to AI trading agents.**
-> 
-**FinancialDataMCP** helps deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions
-
-## 🔒 Private
-
-### 🔍  [Open Interest MCP Server](https://github.com/fintools-ai/mcp-openinterest-server) 
-> **Standalone mcp server designed to fetch open interest data.**
 
 
-## 🎯 **My Vision**
-
-**Leveling the playing field in financial markets through artificial intelligence.**
-
-I believe sophisticated trading analysis shouldn't be exclusive to Wall Street. My mission is to build AI-powered tools that give individual traders access to the same level of market intelligence that institutional traders have used for decades.
-
----
 
 ## 🌟 **What I'm Building**
 
@@ -63,6 +39,34 @@ Every recommendation comes with clear reasoning. Ask "Why did you recommend this
 - **Shared knowledge**: Best practices and frameworks available to all
 - **Innovation acceleration**: Faster development of new trading technologies
 - **Educational impact**: Raising the overall sophistication of retail trading
+
+---
+
+## 🚧 Tools
+
+### 🔍 [TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)
+
+> **Chat-based assistant to explore and interpret Open Interest (OI) data**
+
+**TradeInsightsAssistant** helps traders analyze daily Open Interest (OI) trends using a natural language interface. By tracking where large options positions build up and change over time, it provides intuitive insights into potential support/resistance zones, price magnet levels, and trader sentiment.
+
+### 🔍 [FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)
+> **Standalone server designed to deliver market data insights to AI trading agents.**
+> 
+**FinancialDataMCP** helps deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions
+
+## 🔒 Private
+
+### 🔍  [Open Interest MCP Server](https://github.com/fintools-ai/mcp-openinterest-server) 
+> **Standalone mcp server designed to fetch open interest data.**
+
+---
+
+## 🎯 **My Vision**
+
+**Leveling the playing field in financial markets through artificial intelligence.**
+
+I believe sophisticated trading analysis shouldn't be exclusive to Wall Street. My mission is to build AI-powered tools that give individual traders access to the same level of market intelligence that institutional traders have used for decades.
 
 ---
 
