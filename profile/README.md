@@ -19,6 +19,12 @@
 > 
 **FinancialDataMCP** helps deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions
 
+## 🔒 Private
+
+### 🔍  [Open Interest MCP Server](https://github.com/fintools-ai/mcp-openinterest-server) 
+> **Standalone mcp server designed to fetch open interest data.**
+
+
 ## 🎯 **My Vision**
 
 **Leveling the playing field in financial markets through artificial intelligence.**
