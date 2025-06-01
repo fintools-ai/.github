@@ -35,6 +35,10 @@ Every recommendation comes with clear reasoning. Ask "Why did you recommend this
 
 **TradeInsightsAssistant** helps traders analyze daily Open Interest (OI) trends using a natural language interface. By tracking where large options positions build up and change over time, it provides intuitive insights into potential support/resistance zones, price magnet levels, and trader sentiment.
 
+### 🔍 [mcp-market-data-server](https://github.com/fintools-ai/mcp-market-data-server)
+> **A powerful FastMCP server providing comprehensive financial market data analysis tools for LLM agents and trading applications.**
+
+
 ### 🔍 [FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)
 > **Standalone server designed to deliver market data insights to AI trading agents.**
 > 
