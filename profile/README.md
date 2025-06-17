@@ -1,108 +1,262 @@
 # **fintools-ai** 🚀
 
-> *Democratizing institutional-grade trading intelligence through AI*
+> *AI-powered market intelligence for everyone — turn raw market data into clear, explainable trading insights*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-brightgreen.svg)](https://aws.amazon.com/bedrock/)
 [![Financial Tools](https://img.shields.io/badge/Financial-Tools-blue.svg)](https://github.com/fintools-ai)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayantanbhow/)
 
-
-
+---
 
 ## 🌟 **What I'm Building**
 
-### **🧠 AI Trading Intelligence**
-Imagine having a trading mentor that never sleeps, processes market data in real-time, and explains every recommendation with reasoning. My AI systems analyze market structure, order flow patterns, and options activity to identify high-probability trading opportunities.
+**fintools-ai** is an ecosystem of microservices and AI agents that transforms raw market data into **actionable, explainable insights**. 
 
-### **📊 Real-Time Market Analysis**
-While others rely on lagging indicators, I'm focused on what's happening *right now*. These tools monitor live order flow, detect institutional positioning, and identify market structure changes as they occur—giving you the edge that comes from seeing the market's true intentions.
+The mission is simple: **Make complex market data easy to understand and act on.**
 
-### **🎯 Options Market Intelligence**
-The options market reveals where smart money is positioning for future moves. My platform decodes this complex landscape, identifying which strikes institutions are targeting and whether they're betting on upside or downside moves.
+---
 
-### **💬 Explainable AI Decisions**
-Every recommendation comes with clear reasoning. Ask "Why did you recommend this trade?" and get detailed explanations about market structure, institutional activity, and risk factors—just like consulting with an experienced trader.
+## 🧠 **Key Products**
+
+| Product | What It Does | Status |
+|---------|--------------|---------|
+| **🏆 Trade Copilot** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds | **Private Beta** 🔒 |
+| **📊 OI Analysis Copilot** | Pinpoints where institutions are concentrating options exposure | Coming Soon |
+| **🌊 Technical Data Servers** | High-speed bid/ask momentum, sweep detection, absorption patterns & more | **Private Beta** 🔒 |
+
+
+---
+
+## 🚀 **First Up: Trade Copilot**
+
+Trade Copilot is one of the first product of the fintools-ai suite. It's just the beginning. I'm building a collection of specialized AI assistants, each designed to simplify different aspects of trading.
+
+### **Why Trade Copilot Leads the Pack**
+
+Trade Copilot tackles the trader's biggest pain point: turning a firehose of real-time data into an actionable story.
+
+```mermaid
+flowchart LR
+    classDef header fill:#F0F4FF,stroke:#4C6EF5,color:#1E40AF,stroke-width:2px
+    classDef stage fill:#FFFFFF,stroke:#90A4AE,color:#37474F,stroke-width:1px
+    classDef service fill:#F5F5F5,stroke:#B0BEC5,color:#263238,stroke-width:1px
+    
+    subgraph TC["🤖 Trade Copilot"]
+        direction LR
+        Query["User Query"]:::header
+        NLP["Natural Language<br/>Interface"]:::stage
+        RTP["Real-Time<br/>Processing"]:::stage
+        AI["Claude 4 +<br/>AWS Bedrock"]:::stage
+        Analysis["Multi-Modal<br/>Analysis"]:::stage
+        
+        Query --> NLP --> RTP --> AI --> Analysis
+    end
+    
+    subgraph Services["Connected Services"]
+        direction LR
+        Market["Market Data<br/>Server"]:::service
+        Order["Order Flow<br/>Server"]:::service
+        Options["Options Flow<br/>Server"]:::service
+    end
+    
+    RTP -.-> Market
+    RTP -.-> Order
+    RTP -.-> Options
+```
+
+**What Trade Copilot Does:**
+- **Natural Language Interface** — Ask questions in plain English about market data
+- **Real-Time Processing** — Analyzes current market activity as it happens
+- **Clear Explanations** — Breaks down complex data into understandable insights
+- **Comprehensive View** — Combines multiple data sources for complete analysis
+
+### **📊 Coming Soon: More Specialized Assistants**
+
+- **OI Analysis Copilot** — Deep dive into open interest patterns and create trade plans based on options positioning
+
+Each tool focuses on making one aspect of trading simpler and more data-driven.
+
+---
+
+## 🛠️ **The Technology Stack**
+
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                         fintools-ai Architecture                          ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────┐      ┌──────────────────┐      ┌─────────────────────┐
+│  🌐 Data Layer  │      │ 🔧 Processing    │      │ 📱 User Interface   │
+├─────────────────┤      ├──────────────────┤      ├─────────────────────┤
+│                 │      │                  │      │                     │
+│ • 3P Market     │─────▶│ Go Data Broker   │─────▶│ • Trade Copilot     │
+│   Data APIs     │      │ (Real-time)      │      │ • Web Dashboard     │
+│ • WebSocket     │      │                  │      │ • Mobile Apps       │
+│   Feeds         │      │ • gRPC Server    │      │   (Coming Soon)     │
+│ • REST APIs     │      │ • Redis Cache    │      │                     │
+│                 │      │ • Event Stream   │      │                     │
+└─────────────────┘      └────────┬─────────┘      └─────────────────────┘
+                                  │
+                         ┌────────▼─────────┐
+                         │  📡 MCP Servers  │
+                         ├──────────────────┤
+                         │                  │
+                         │ • Market Data    │
+                         │ • Order Flow     │
+                         │ • Options Flow   │
+                         │ • Open Interest  │
+                         │                  │
+                         └────────┬─────────┘
+                                  │
+                         ┌────────▼─────────┐
+                         │  🧠 AI Layer     │
+                         ├──────────────────┤
+                         │                  │
+                         │ • Claude 4       │
+                         │ • AWS Bedrock    │
+                         │ • Pattern Recog. │
+                         │ • ML Models      │
+                         │                  │
+                         └──────────────────┘
+```
+
+---
+
+## 🔧 **Core Tools & Servers**
+
+> **📋 Beta Notice:** Several repositories are currently private during beta testing and will be made public upon stable release. 
+
+
+#### **[Trade Copilot](https://github.com/fintools-ai/trade-copilot)** 
+> **The AI trading assistant that analyzes markets and help generated insights from raw real time market data**
+
+- **Status**: Private Beta — Repository will be public soon
+- **Tech Stack**: Python, FastMCP, Claude 4, Go, gRPC, WebSockets
+- **Key Features**:
+  - Real-time order flow analysis
+  - Options sweep detection
+  - Volume profile analysis
+  - Institutional bias tracking
+  - Natural language queries
+
+---
+
+### **📊 Market Data Infrastructure**
+
+#### **[mcp-market-data-server](https://github.com/fintools-ai/mcp-market-data-server)** ⭐ 
+> **Comprehensive financial market data analysis for LLM agents**
+
+```python
+# Example: Get volume profile in natural language
+result = await mcp_client.call_tool("financial_volume_profile_tool", {
+    "symbol": "AAPL",
+    "timeframe": "5m"
+})
+# Returns: POC, VAH, VAL, and high-volume nodes with explanations
+```
+
+- **Tools**: Volume Profile, Technical Analysis, Support/Resistance Zones
+- **Integration**: FastMCP protocol, 3P market data APIs
+- **Use Cases**: Pattern recognition, price level identification
+
+#### **[FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)** 
+> **Standalone server for AI trading agents**
+
+- **Purpose**: Bridge between external brokers and AI systems
+- **Architecture**: Modular, scalable data processing
+- **Output**: Structured insights for LLM consumption
+
+#### **[TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)** 
+> **Chat-based Open Interest analysis**
+
+- **Focus**: Daily OI trends and positioning analysis
+- **Interface**: Natural language queries for options data
+- **Insights**: Support/resistance from options positioning
+
+---
+
+### **Order Flow Intelligence** 
+
+#### **mcp-order-flow-server** 
+> **Real-time order flow analysis and institutional tracking**
+
+**Key Features:**
+- 🔄 **Bid/Ask Momentum Analysis** — Track buying vs selling pressure
+- 📊 **Large Order Detection** — Identify institutional-sized trades
+- 🎯 **Absorption Pattern Recognition** — Spot accumulation/distribution
+- 🏢 **Market Maker vs Retail Classification** — Know who's trading
+
+#### **mcp-options-order-flow-server** 
+> **Options market intelligence and sweep detection**
+
+**Key Features:**
+- 🎯 **Institutional Sweep Detection** — Catch large options orders
+- 📈 **Put/Call Bias Analysis** — Market sentiment indicators
+- ⚡ **Gamma Positioning Insights** — Understand dealer hedging
+- 💰 **Smart Money Flow Tracking** — Follow institutional positioning
+
+#### **mcp-openinterest-server** 
+> **Dedicated Open Interest data pipeline**
+
+- **Purpose**: Fetch and process OI data for analysis
+- **Integration**: Feeds into OI Analysis Copilot
+- **Updates**: Real-time OI change detection
+
+---
+
+## 🏆 **Why fintools-ai Is Different**
+
+### **🧠 AI-First Architecture**
+- **Conversational Interface** — Ask questions in plain English
+- **Explainable AI** — Understand *why*, not just *what*
+- **Continuous Learning** — Patterns improve with market data
+- **Multi-Modal Analysis** — Text, charts, and data combined
+
+
+### **🔧 Modular Design**
+- Use only the services you need
+- Easy integration with existing tools
 
 ---
 
 
-## 🚧 Tools
-
-### 🔍 [TradeInsightsAssistant](https://github.com/fintools-ai/TradeInsightsAssistant)
-
-> **Chat-based assistant to explore and interpret Open Interest (OI) data**
-
-**TradeInsightsAssistant** helps traders analyze daily Open Interest (OI) trends using a natural language interface. By tracking where large options positions build up and change over time, it provides intuitive insights into potential support/resistance zones, price magnet levels, and trader sentiment.
-
-### 🔍 [mcp-market-data-server](https://github.com/fintools-ai/mcp-market-data-server)
-> **A powerful FastMCP server providing comprehensive financial market data analysis tools for LLM agents and trading applications.**
-
-
-### 🔍 [FinancialDataMCP](https://github.com/fintools-ai/FinancialDataMCP)
-> **Standalone server designed to deliver market data insights to AI trading agents.**
-> 
-**FinancialDataMCP** helps deliver market data insights to AI trading agents. It processes data from external brokers and computes structured information to help LLMs and other AI systems make more informed trading decisions
-
-## 🔒 Private
-
-### 🔍  [Open Interest MCP Server](https://github.com/fintools-ai/mcp-openinterest-server) 
-> **Standalone mcp server designed to fetch open interest data.**
-
 ---
 
-## 🚀 **The Future I'm Creating**
-
-### **For Individual Traders**
-- **Level playing field**: Access to institutional-grade analysis tools
-- **Continuous learning**: AI that explains its reasoning, making you a better trader
-- **Risk management**: Professional discipline built into every recommendation
-- **Time efficiency**: Focus on execution while AI handles the analysis
-
-### **For the Trading Community**
-- **Open development**: Building tools collaboratively with the trading community
-- **Shared knowledge**: Best practices and frameworks available to all
-- **Innovation acceleration**: Faster development of new trading technologies
-- **Educational impact**: Raising the overall sophistication of retail trading
-
----
-
-## 🎯 **My Vision**
-
-**Leveling the playing field in financial markets through artificial intelligence.**
-
-I believe sophisticated trading analysis shouldn't be exclusive to Wall Street. My mission is to build AI-powered tools that give individual traders access to the same level of market intelligence that institutional traders have used for decades.
-
----
-
-## 🛠️ **Getting Started**
+## 🚀 **Getting Started**
 
 **Currently in Beta Development** 🚧
 
-I'm actively building the future of AI-powered trading analysis. My core systems are in development and being tested with early adopters.
-
-**[Contact Me](mailto:sayantanbhow@gmail.com)** • **[Learn More](mailto:sayantanbhow@gmail.com)** 
-
----
-
-
-## 🌟 **Community & Support**
-
-
-### **Stay Updated**
-- **📬 Development Updates**: Email me to join my update list
-- **🔔 Beta Releases**: Get notified when new features are ready for testing
-
----
-
-## 👨‍💻 **About the Project**
-
-This is currently a **solo project** for powered passion for both trading and technology. As a person who's experienced the frustration of not having access to institutional-grade tools, I decided to build them myself.
-
-**Why I started this:**
-- Tired of relying on lagging indicators while institutions had real-time intelligence
-- Passionate about AI's potential to democratize sophisticated analysis
-- Determined to level the playing field in financial markets
+I'm actively building the future of AI-powered trading analysis. Core systems are in development and being tested with early adopters.
 
 
 ---
+
+## 👨‍💻 **About the Creator**
+
+
+**Connect:**
+- 📧 [sayantanbhow@gmail.com](mailto:sayantanbhow@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sayantanbhow/)
+- 🐙 [GitHub](https://github.com/fintools-ai)
+
+---
+
+## ⚖️ **Legal & Compliance**
+
+**Important Notice:** 
+- 📋 **Not Financial Advice** — Tools provide data analysis, not investment recommendations
+- 🔒 **Risk Disclaimer** — Trading involves substantial risk of loss
+- 📊 **Data Accuracy** — While we strive for accuracy, verify all data independently
+
+
+---
+
+<div align="center">
+
+### **🚀 The Future of Trading is AI-Powered**
+
+*Built with passion for trading and technology*
+
+
+</div>
