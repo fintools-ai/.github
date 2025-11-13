@@ -21,12 +21,60 @@ The mission is simple: **Make complex market data easy to understand and act on.
 
 | Product | What It Does | Status |
 |---------|--------------|---------|
+| **🏆 Trade Copilot v2** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds  | **Private Beta** 🔒 |
 | **🏆 Trade Copilot** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds | **Private Beta** 🔒 |
 | **📊 OI Analysis Copilot** | Pinpoints where institutions are concentrating options exposure | Coming Soon |
 | **🌊 Technical Data Servers** | High-speed bid/ask momentum, sweep detection, absorption patterns & more | **Private Beta** 🔒 |
 
 
+
 ---
+
+
+
+## 🚀 **Trade Copilot v2: The Agent Swarm Revolution**
+
+Trade Copilot v2 represents a complete architectural redesign, moving from a single-agent system to a **multi-agent swarm** that delivers significantly higher accuracy and confidence in trading recommendations.
+
+### **What's New in v2**
+
+#### **Multi-Agent Swarm Architecture**
+Instead of one agent trying to analyze everything, v2 deploys a **team of multiple specialized agents** that work in parallel:
+
+```mermaid
+graph TD
+    classDef query fill:#E3F2FD,stroke:#1976D2,color:#0D47A1,stroke-width:2px
+    classDef breadth fill:#FFF3E0,stroke:#F57C00,color:#E65100,stroke-width:2px
+    classDef setup fill:#F3E5F5,stroke:#7B1FA2,color:#4A148C,stroke-width:2px
+    classDef specialist fill:#E8F5E9,stroke:#388E3C,color:#1B5E20,stroke-width:2px
+    classDef coordinator fill:#FCE4EC,stroke:#C2185B,color:#880E4F,stroke-width:2px
+
+    Query[User Query<br/>What does SPY look like now?]:::query
+
+    MarketBreadth[Market Breadth Agent<br/>Analyzes OI key levels<br/>Max pain, Put/Call walls]:::breadth
+
+    Setup[Setup Agent<br/>Configures monitoring<br/>Strike selection]:::setup
+
+    OrderFlow[Order Flow Agent<br/>Institutional patterns<br/>Multi-ticker flows]:::specialist
+    OptionsFlow[Options Flow Agent<br/>Sweeps and blocks<br/>PUT/CALL bias]:::specialist
+    FinancialData[Financial Data Agent<br/>Volume profile<br/>ORB, FVG, Technicals]:::specialist
+
+    Coordinator[Coordinator Agent<br/>Synthesizes insights<br/>Dual recommendations]:::coordinator
+
+    Result[CALL Recommendation: HIGH<br/>PUT Recommendation: LOW<br/>Entry, Target, Stop levels]:::query
+
+    Query --> MarketBreadth
+    MarketBreadth --> Setup
+    Setup --> OrderFlow
+    Setup --> OptionsFlow
+    Setup --> FinancialData
+    OrderFlow --> Coordinator
+    OptionsFlow --> Coordinator
+    FinancialData --> Coordinator
+    Coordinator --> Result
+```
+
+
 
 ## 🚀 **First Up: Trade Copilot**
 
