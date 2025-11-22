@@ -21,7 +21,7 @@ The mission is simple: **Make complex market data easy to understand and act on.
 
 | Product | What It Does | Status |
 |---------|--------------|---------|
-| **🏆 Trade Copilot v2** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds  | **Private Beta** 🔒 |
+| **🏆 [Trade Copilot v2](https://github.com/fintools-ai/trade-copilot-agent-swarm)** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds  | **Testing** 🔒 |
 | **🏆 Trade Copilot** | Conversational AI that explains real-time order flow and technicals for any ticker in seconds | **Private Beta** 🔒 |
 | **📊 OI Analysis Copilot** | Pinpoints where institutions are concentrating options exposure | Coming Soon |
 | **🌊 Technical Data Servers** | High-speed bid/ask momentum, sweep detection, absorption patterns & more | **Private Beta** 🔒 |
