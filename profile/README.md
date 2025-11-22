@@ -36,6 +36,8 @@ The mission is simple: **Make complex market data easy to understand and act on.
 
 Trade Copilot v2 represents a complete architectural redesign, moving from a single-agent system to a **multi-agent swarm** that delivers significantly higher accuracy and confidence in trading recommendations.
 
+Code Repo - https://github.com/fintools-ai/trade-copilot-agent-swarm
+
 ### **What's New in v2**
 
 #### **Multi-Agent Swarm Architecture**
