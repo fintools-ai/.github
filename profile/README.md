@@ -38,6 +38,18 @@ The mission is simple: **Make complex market data easy to understand and act on.
 ---
 
 
+## Disclaimer
+This project is for educational and research purposes only.
+
+- Not intended for real trading or investment
+- No investment advice or guarantees provided
+- Creator assumes no liability for financial losses
+- Consult a financial advisor for investment decisions
+- Past performance does not indicate future results
+- By using any  software part of fintools, you agree to use it solely for learning purposes.
+
+
+
 
 ## 🚀 **Trade Copilot v2: The Agent Swarm Revolution**
 
